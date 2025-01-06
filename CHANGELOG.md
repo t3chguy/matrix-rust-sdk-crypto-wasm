@@ -2,6 +2,10 @@
 
 **BREAKING CHANGES**
 
+# matrix-sdk-crypto-wasm v13.0.0
+
+**BREAKING CHANGES**
+
 -   Update matrix-rusk-sdk to `0.9.0`.
 -   Expose new API `DehydratedDevices.getDehydratedDeviceKey`, `DehydratedDevices.saveDehydratedDeviceKey`
     and `DehydratedDevices.deleteDehydratedDeviceKey` to store/load the dehydrated device pickle key.
