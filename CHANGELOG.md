@@ -8,7 +8,7 @@
 
 **BREAKING CHANGES**
 
--   `DehydratedDevices.keysForUpload` now use a `DehydratedDeviceKey` as parameter instead of a raw `UInt8Array`. 
+-   `DehydratedDevices.keysForUpload` now use a `DehydratedDeviceKey` as parameter instead of a raw `UInt8Array`.
     Use `DehydratedDeviceKey.createKeyFromArray` to migrate.
 -   `DehydratedDevices.rehydrate` now use a `DehydratedDeviceKey` as parameter instead of a raw `UInt8Array`.
     Use `DehydratedDeviceKey.createKeyFromArray` to migrate.
